@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign up form that mirrors the ALT SCHOOL account creation form.">
+  <title>Sign Up | ALT SCHOOL Application Form</title>
+</head>
+<body>
+  <header id="top">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html" aria-current="page">Application Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Sign up</h1>
+    <p>Create an account to get started on your learning journey</p>
+
+    <p role="note"><strong>Important:</strong> Your name will appear on your certificate exactly as entered</p>
+
+    <form action="#" method="post">
+      <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+      </p>
+
+      <p>
+        <label for="first-name">First name</label><br>
+        <input type="text" id="first-name" name="first_name" placeholder="John" autocomplete="given-name" required>
+      </p>
+
+      <p>
+        <label for="last-name">Last name</label><br>
+        <input type="text" id="last-name" name="last_name" placeholder="Doe" autocomplete="family-name" required>
+      </p>
+
+      <p>
+        <label for="phone">Phone number</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="+1234567890" autocomplete="tel" required>
+      </p>
+
+      <p>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="********" autocomplete="new-password" minlength="8" required>
+      </p>
+
+      <p>By clicking Create account, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a>.</p>
+
+      <p><button type="submit">Create account &rarr;</button></p>
+    </form>
+
+    <p>OR</p>
+
+    <p><button type="button">Login with Google</button></p>
+  </main>
+
+  <footer>
+    <address>
+      No 21 Ifeoluwatedo Street, opposite Ajoda New Town, Ibadan-Ife Expressway, Ibadan, Nigeria
+    </address>
+    <p><small>&copy; 2026 Adeboye Taiwo Jeremiah. All rights reserved.</small></p>
+  </footer>
+</body>
+</html>
